@@ -5,7 +5,7 @@ import moment from "moment";
 import styles from "./styles";
 
 const LastConverted = ({ base, date, quote, conversionRate }) => (
-  <Text>
+  <Text style={styles.smallText}>
     1
     {" "}
     {base}
