@@ -40,7 +40,7 @@ class Home extends Component {
       <Container>
         <StatusBar translucent={false} barStyle="light-content" />
         <Header onPress={this.handleOptionsPress} />
-        <KeyboardAvoidingView behavior="height">
+        <KeyboardAvoidingView behavior="padding">
           <Logo />
           <InputWithButton
             buttonText={TEMP_BASE_CURRENCY}
