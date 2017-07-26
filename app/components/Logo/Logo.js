@@ -10,7 +10,7 @@ const Logo = () => (
       resizeMode="contain"
     >
       <Image
-        style={styles.image}
+        style={styles.logo}
         source={require("./images/logo.png")}
         resizeMode="contain"
       />
